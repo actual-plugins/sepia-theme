@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "NodeNext",
+    "target": "es6",
+    "declaration": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "nodenext",
+    "types": ["node"]
+  },
+  "include": ["src", "src/global.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}
